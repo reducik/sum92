@@ -1,0 +1,70 @@
+i=int(input())
+if i == 3: print(3)
+while i!=3:
+    if i<4:
+        i += 1
+        print(i)
+    else:
+        i -= 1
+        print(i)
+
+---------------------------------------
+
+c=1
+while c<=5:
+    c+=1
+    if c==3:
+        continue
+    print(c)
+----------------------------------------
+
+c=int(input())
+sum=0
+if c%2!=0: c-=1
+for i in range(c//2):
+    print(c+sum)
+    sum+=c
+    c-=2
+
+-----------------------------------------
+
+c=int(input())
+sum=0
+if c%2!=0: c-=1
+while c!=0:
+    sum+=c
+    c-=2
+    print(sum)
+
+-----------------------------------------
+
+sum_odd = 0
+i = 1
+while i <= 25:
+    if i%2!=0:
+        sum_odd += i
+    i += 1
+print(sum_odd)
+
+-----------------------------------------
+
+num=[1,2,3]
+for i in num:
+    print(i)
+else: print('stop')
+
+-----------------------------------------
+
+age=[12,25,64]
+for i in age:
+    if i==12:
+        print('подросток')
+    elif i==25:
+        print('взрослый')
+    elif i==64:
+        print('старый')
+    else: error
+else: print('stop')
+
+------------------------------------------
+
